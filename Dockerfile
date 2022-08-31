@@ -13,5 +13,5 @@ RUN npm ci
 # 5. 소스파일을 복사
 COPY index.js .
 
-# 6. ENTRYPOINT를 통해서 node 와 index.js를 실행해라고 명시해줌. 도커파일은 레이어 형태로 작성해주는게 좋음.
+# 6. ENTRYPOINT를 통해서 node 와 index.js를 실행해라고 명시해줌. 도커파일은 레이어 형태로 작성해주는게 좋음
 ENTRYPOINT [ "node", "index.js" ]
