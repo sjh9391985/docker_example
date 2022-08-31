@@ -1,2 +1,4 @@
 # docker-example
-Demonstrates how to pack a nodejs app into a docker container
+
+1. terminal > `npm init -y`
+2. terminal > `npm i express`
